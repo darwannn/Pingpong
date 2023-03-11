@@ -1032,5 +1032,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle
       objectReference: {fileID: 0}
+    - target: {fileID: 1220996093869686869, guid: 14e2a42ca316a394bb0f2efda94bf79d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: bd5d20629752b6e4aac35083eb027065, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14e2a42ca316a394bb0f2efda94bf79d, type: 3}
