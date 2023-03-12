@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
         int random2 = Random.Range(0, 2) == 0 ? -1:1;
         rb = GetComponent<Rigidbody2D>();
         
-        rb.AddForce(new Vector2(1, random2).normalized * ballForce, ForceMode2D.Impulse);
+        rb.AddForce(new Vector2(random1, random2).normalized * ballForce, ForceMode2D.Impulse);
     }
 
 }
